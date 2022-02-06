@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(247, 118, 14, 0.767);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.navbar {
+  color: rgb(10, 10, 10);
+  background-color: #f1ca1c;
+  display: flex;
+  padding: 20px;
+}
+
+
+.links {
+  padding-top: 8px;
+  display: flex;
+}
+
+.title {
+  font-family: cursive;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+.donation_div {
+  margin: 0;
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  text-decoration: none;
+  width: 430px;
+  height: 350px;
+  padding-top: 60px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  padding-left: 35px;
+  border-radius: 40px;
+  box-shadow: 13px 13px 20px rgba(230, 103, 103, 0.747), -13px -13px 20px rgba(230, 103, 103, 0.747);
+}
+
+.box_text {
+  font-family: 'Supermercado One', cursive;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 60px;
+}
+
+.donate_button {
+  text-decoration: none;
+  padding: 20px;
+  margin-left: 120px;
+  background-color: #2cee2581;
+  border-radius: 20px;
+  font-weight: 700;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  box-shadow: 3px 3px 8px #ffffff, -3px -3px 8px #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.donate_button:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+  
+  
